@@ -1,5 +1,6 @@
 <!DOCTYPE html>
 <html lang="pt-BR">
+
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
@@ -7,6 +8,7 @@
 
     <link rel="stylesheet" href="style.css">
 </head>
+
 <body>
 
     <main>
@@ -15,25 +17,28 @@
 
             <form id="imcForm">
                 <label for="nome">Nome:</label>
-                <input type="text" id="nome" name="nome" required>
-                                
+                <input type="text" id="nome" name="nome">
+
                 <label for="peso">Peso (kg):</label>
-                <input type="number" id="peso" name="peso" required>
+                <input type="number" id="peso" name="peso">
 
                 <label for="altura">Altura (m):</label>
-                <input type="number" id="altura" name="altura" step="0.01" required>
+                <input type="number" id="altura" name="altura">
 
-                <button type="submit">Calcular IMC</button>
+                <button id="botao" name="botao">Calcular o IMC</button>
             </form>
 
-            <div id="resultado"></div>          
+            <div id="resultado"></div>
 
         </div>
     </main>
 
     <footer class="footer">
-        <p>Desenvolvido por <a href="https://github.com/milennaalves" target="_blank">Milenna Feijó</a>.</p>
+        <p>Desenvolvido por <a href="https://github.com/milennafeijo" target="_blank">Milenna Feijó</a>.</p>
     </footer>
-    
+
+    <script src="script.js"></script>
+
 </body>
+
 </html>
